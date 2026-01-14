@@ -2,10 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 
-<head>
-  <meta name="google-site-verification" content="tTMBNEGpP1pyNatDnvT8ihOGJEtYextFanAAuUbpMoM" />
-</head>
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -24,6 +20,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="tTMBNEGpP1pyNatDnvT8ihOGJEtYextFanAAuUbpMoM" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-50`}
       >
