@@ -14,7 +14,7 @@ export default function Home() {
         />
 
         <div className="text-center">
-          <h1 className="text-3xl font-semibold tracking-tight">
+          <h1 className="text-3xl font-semibold tracking-tight text-blue-900">
             Welcome to The Cozy Corner
           </h1>
           <p className="mt-4 text-zinc-600">
@@ -33,7 +33,7 @@ export default function Home() {
 
           <Link
             href="/about"
-            className="flex h-12 items-center justify-center rounded-full border px-6 hover:bg-zinc-100"
+            className="flex h-12 items-center justify-center rounded-full border px-6 hover:bg-blue-900 bg-blue-200 text-blue-900 hover:text-white"
           >
             Learn More
           </Link>

@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "The Cozy Corner",
+  title: "The Cozy Corner by Christian Laniba",
   description: "A cozy online bookstore with great recommendations",
 };
 
@@ -27,9 +27,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-50`}
       >
-        <header className="border-b bg-white">
+        <header className="border-b bg-blue-900">
           <div className="mx-auto max-w-6xl flex justify-between items-center p-4">
-            <h1 className="text-xl font-semibold">The Cozy Corner</h1>
+            <h1 className="text-xl font-semibold text-white">The Cozy Corner</h1>
             <nav className="space-x-4 text-sm">
               <Link href="/">Home</Link>
               <Link href="/about">About</Link>
